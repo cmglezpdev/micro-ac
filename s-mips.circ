@@ -3909,6 +3909,38 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
+    <appear>
+      <path d="M292,131 Q296,141 300,131" fill="none" stroke="#808080" stroke-width="2"/>
+      <rect fill="none" height="132" stroke="#000000" stroke-width="2" width="240" x="181" y="129"/>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="397" y="193">OUT</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="210" y="248">beq</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="239" y="249">bne</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="269" y="250">bltz</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="298" y="251">jr</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="360" y="250">bgtz</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="331" y="249">blez</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="389" y="250">j</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="346" y="145">Destination</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="195" y="173">Rs</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="194" y="224">Rt</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="209" y="148">PC</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="259" y="147">offset</text>
+      <text font-family="SansSerif" font-size="16" font-weight="bold" text-anchor="middle" x="294" y="194">BRANCH CONTROL</text>
+      <circ-port height="8" pin="290,40" width="8" x="206" y="256"/>
+      <circ-port height="8" pin="380,40" width="8" x="236" y="256"/>
+      <circ-port height="8" pin="470,40" width="8" x="266" y="256"/>
+      <circ-port height="8" pin="540,40" width="8" x="296" y="256"/>
+      <circ-port height="8" pin="290,70" width="8" x="326" y="256"/>
+      <circ-port height="8" pin="380,70" width="8" x="356" y="256"/>
+      <circ-port height="8" pin="540,70" width="8" x="386" y="256"/>
+      <circ-port height="8" pin="110,90" width="8" x="356" y="126"/>
+      <circ-port height="8" pin="110,190" width="8" x="176" y="166"/>
+      <circ-port height="8" pin="110,290" width="8" x="176" y="216"/>
+      <circ-port height="8" pin="110,390" width="8" x="206" y="126"/>
+      <circ-port height="8" pin="110,470" width="8" x="256" y="126"/>
+      <circ-port height="10" pin="800,70" width="10" x="415" y="185"/>
+      <circ-anchor facing="east" height="6" width="6" x="417" y="187"/>
+    </appear>
     <wire from="(340,220)" to="(340,230)"/>
     <wire from="(660,140)" to="(660,170)"/>
     <wire from="(570,410)" to="(570,430)"/>
